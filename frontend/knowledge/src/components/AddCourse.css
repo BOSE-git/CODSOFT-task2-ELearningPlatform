@@ -1,0 +1,51 @@
+
+.addcourse-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Saira Condensed', sans-serif;
+  }
+  
+  .addcourse-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title,
+  .img-url,
+  .type,
+  .counter,
+  .lecture {
+    margin-bottom: 15px;
+  }
+  
+  h3,
+  h4 {
+    margin: 0;
+  }
+  
+  .addcourse-container form input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #793FDF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

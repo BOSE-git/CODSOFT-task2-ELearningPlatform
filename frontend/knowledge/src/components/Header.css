@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #7091F5;
+}
+
+.logo h1{
+    font-family: 'Handjet', cursive;
+}
+
+.nav-links ul{
+    display: flex;
+    font-family: 'Saira Condensed', sans-serif;
+    overflow: hidden;
+}
+.nav-links ul li{
+    list-style: none;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+  
+  
+  
+  
+  
+  
